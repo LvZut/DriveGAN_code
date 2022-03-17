@@ -6,7 +6,7 @@ port=$2
 latent_decoder_model_path=$3
 
 
-python server.py  \
+/usr/bin/python3 server.py  \
     --saved_model ${modelPath} \
     --initial_screen rand \
     --play \
